@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(135deg, #1d1d1d, #3b3b3b);
+    color: #fff;
+}
+
+h1 {
+    font-size: 36px;
+    color: #f39c12;
+}
+
+input,
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+input {
+    width: 60%;
+    max-width: 400px;
+    background: #fff;
+    color: #333;
+    border: 2px solid #f39c12;
+}
+
+button {
+    background: #f39c12;
+    /* Initial background color */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Added transition for smooth effect */
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #d87b00;
+    /* Use background-color for hover */
+    transform: scale(1.05);
+    /* Slightly enlarges the button for effect */
+}
+
+.movie-container {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+    max-width: 600px;
+    background: #2d2d2d;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #f39c12;
+}
+
+.movie-details {
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.movie-details p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.movie-details p strong {
+    color: #f39c12;
+}
+
+p {
+    font-size: 18px;
+}
